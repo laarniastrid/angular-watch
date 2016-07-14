@@ -25,12 +25,3 @@ $scope.$watch(
     console.log(newValue);
   }
 )
-
-// Literal
-// Gets parsed into a function expression in angularjs
-$scope.$watch(
-  "('Literal: Best friend is ' + bestFriend.name)",
-  function(newValue) {
-    console.log(newValue);
-  }
-)
