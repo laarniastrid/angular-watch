@@ -1,4 +1,5 @@
 // $watching -ing functions in angularjs
+// ----------------------------------------
 
 // From Ben Nadel
 // http://www.bennadel.com/blog/2658-using-scope-watch-to-watch-functions-in-angularjs.htm
@@ -33,3 +34,7 @@ $scope.$watch(
     console.log(newValue);
   }
 )
+
+// ----------------------------------------
+
+//
