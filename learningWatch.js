@@ -37,4 +37,26 @@ $scope.$watch(
 
 // ----------------------------------------
 
-//
+// The $scope.$watch functions takes 2 (two) function parameters
+// 1. A 'value' function - 1st function
+// 2.  A 'listener' function - 2nd function
+$scope.$watch(
+  function() {
+
+  },
+  function() {
+
+  }
+)
+
+// or
+
+$scope.$watch( function() {}, function() {} )
+
+// The 1st function should return the value being watched
+$scope.$watch(
+  function(scope) {
+    return scope.data.myVar;
+  },
+  function() {}
+)
